@@ -7,11 +7,13 @@
 //
 
 #import "FLXMasterViewController.h"
-
 #import "FLXDetailViewController.h"
 
-@interface FLXMasterViewController () {
+
+@interface FLXMasterViewController () <UIActionSheetDelegate, UITabBarControllerDelegate, UITabBarDelegate> {
     NSMutableArray *_objects;
+    UIActionSheet * actionSheetDelete;
+
 }
 @end
 
@@ -30,6 +32,29 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+    actionSheetDelete = [[UIActionSheet alloc] initWithTitle:@"Do you want to continue?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Delete Item(s)" otherButtonTitles:nil];
+    actionSheetDelete.actionSheetStyle = UIActionSheetStyleBlackOpaque;
+    [actionSheetDelete showInView:self.tabBarController.view];
+
+    NSLog(@"%@", [self.tabBarController.tabBar items]);
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [self showActionSheet:nil];
+
+    [actionSheetDelete showFromTabBar:self.tabBarController.tabBar];
+
+}
+
+- (IBAction)showActionSheet:(id)sender
+{
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Delete" otherButtonTitles:@"Save", nil];
+
+    
+    [actionSheet showInView:self.view];
 }
 
 - (void)didReceiveMemoryWarning

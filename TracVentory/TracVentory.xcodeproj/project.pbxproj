@@ -13,7 +13,6 @@
 		013A0BC618F4AAF5009238E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BC418F4AAF5009238E4 /* InfoPlist.strings */; };
 		013A0BC818F4AAF5009238E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BC718F4AAF5009238E4 /* main.m */; };
 		013A0BCC18F4AAF5009238E4 /* FLXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */; };
-		013A0BCF18F4AAF5009238E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BCD18F4AAF5009238E4 /* Main.storyboard */; };
 		013A0BD218F4AAF5009238E4 /* FLXMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */; };
 		013A0BD518F4AAF5009238E4 /* FLXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */; };
 		013A0BD718F4AAF5009238E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BD618F4AAF5009238E4 /* Images.xcassets */; };
@@ -48,7 +47,7 @@
 		013A0BC918F4AAF5009238E4 /* TracVentory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TracVentory-Prefix.pch"; sourceTree = "<group>"; };
 		013A0BCA18F4AAF5009238E4 /* FLXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXAppDelegate.h; sourceTree = "<group>"; };
 		013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXAppDelegate.m; sourceTree = "<group>"; };
-		013A0BCE18F4AAF5009238E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013A0BCE18F4AAF5009238E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXMasterViewController.h; sourceTree = "<group>"; };
 		013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXMasterViewController.m; sourceTree = "<group>"; };
 		013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXDetailViewController.h; sourceTree = "<group>"; };
@@ -251,7 +250,6 @@
 			files = (
 				013A0BD718F4AAF5009238E4 /* Images.xcassets in Resources */,
 				013A0BC618F4AAF5009238E4 /* InfoPlist.strings in Resources */,
-				013A0BCF18F4AAF5009238E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
