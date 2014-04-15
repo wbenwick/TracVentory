@@ -7,7 +7,7 @@
         <!--Navigation Controller-->
         <scene sceneID="cUi-kZ-frf">
             <objects>
-                <navigationController extendedLayoutIncludesOpaqueBars="YES" id="rS3-R9-Ivy" sceneMemberID="viewController">
+                <navigationController id="rS3-R9-Ivy" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="search" id="g0E-qO-Y21"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yXu-0R-QUA">
                         <autoresizingMask key="autoresizingMask"/>
@@ -25,15 +25,15 @@
             <objects>
                 <viewController id="Vph-BM-gai" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="93N-el-p0g"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mrq-Ud-Bnm"/>
+                        <viewControllerLayoutGuide type="top" id="GWJ-3g-pIO"/>
+                        <viewControllerLayoutGuide type="bottom" id="69x-29-dKR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aKq-q8-kKk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DfN-ZA-gEe">
-                                <rect key="frame" x="20" y="42" width="280" height="29"/>
+                                <rect key="frame" x="27" y="45" width="265" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Check In"/>
@@ -47,15 +47,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CZ0-QB-iMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-182" y="981"/>
+            <point key="canvasLocation" x="-180" y="981"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dg8-Ns-JY2">
             <objects>
                 <viewController id="84k-sp-6mG" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="T5P-vA-jj8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Gf8-dd-kwc"/>
+                        <viewControllerLayoutGuide type="top" id="E4B-ef-WuM"/>
+                        <viewControllerLayoutGuide type="bottom" id="F3a-hx-ddN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qaQ-En-NSG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -81,8 +81,8 @@
             <objects>
                 <viewController id="JTK-0X-pCr" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="al3-Dj-rjV"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cb9-9q-bUp"/>
+                        <viewControllerLayoutGuide type="top" id="TbB-BI-HQN"/>
+                        <viewControllerLayoutGuide type="bottom" id="oyr-WH-wO0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JUs-DG-QO0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -116,10 +116,10 @@
         <!--Master View Controller - Master-->
         <scene sceneID="VgW-fR-Quf">
             <objects>
-                <tableViewController title="Master" extendedLayoutIncludesOpaqueBars="YES" id="pGg-6v-bdr" customClass="FLXMasterViewController" sceneMemberID="viewController">
+                <tableViewController title="Master" id="pGg-6v-bdr" customClass="FLXMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mLL-gJ-YKr">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="640"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="2Mu-W3-0jE">
                             <rect key="frame" x="0.0" y="64" width="320" height="44"/>
@@ -166,27 +166,25 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="EFE-Dp-smK"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sQZ-06-QEA"/>
                     </navigationItem>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="640"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cn-md-YlS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="64"/>
+            <point key="canvasLocation" x="985" y="64"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>
                 <viewController title="Detail" id="Ah7-4n-0Wa" customClass="FLXDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bNg-dR-OUW"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fxl-Ns-Cpq"/>
+                        <viewControllerLayoutGuide type="top" id="cIm-e0-J51"/>
+                        <viewControllerLayoutGuide type="bottom" id="a0L-h9-sNL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MMQ-IT-qOo">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="640"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-5M-9Gs">
-                                <rect key="frame" x="20" y="312" width="280" height="17"/>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-5M-9Gs">
+                                <rect key="frame" x="20" y="276" width="280" height="17"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -194,6 +192,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lei-5M-9Gs" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" symbolic="YES" id="62x-JV-TTJ"/>
+                            <constraint firstItem="Lei-5M-9Gs" firstAttribute="centerY" secondItem="MMQ-IT-qOo" secondAttribute="centerY" id="JzS-HC-Rnl"/>
+                            <constraint firstAttribute="trailing" secondItem="Lei-5M-9Gs" secondAttribute="trailing" constant="20" symbolic="YES" id="pXB-RP-Zz6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
@@ -207,13 +210,11 @@
         <!--Tab Bar Controller-->
         <scene sceneID="6eD-4f-L2n">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="flipHorizontal" id="e5f-U6-efm" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="e5f-U6-efm" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="568"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="fill" id="8xC-SY-pKf">
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="8xC-SY-pKf">
+                        <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
