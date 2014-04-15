@@ -8,6 +8,7 @@
 
 #import "FLXMasterViewController.h"
 #import "FLXDetailViewController.h"
+#import <Parse/Parse.h>
 
 
 @interface FLXMasterViewController () <UIActionSheetDelegate, UITabBarControllerDelegate, UITabBarDelegate> {
@@ -46,6 +47,10 @@
 
     [actionSheetDelete showFromTabBar:self.tabBarController.tabBar];
 
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
+    
 }
 
 - (IBAction)showActionSheet:(id)sender

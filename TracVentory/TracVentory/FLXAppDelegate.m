@@ -7,12 +7,18 @@
 //
 
 #import "FLXAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation FLXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"QhXKc1mIeUZ9wMkSGl9PqiEqLkbAsnmYbuTIRE2S"
+                  clientKey:@"ov2EFXzG0hbyX0wMHQ3idM8SSLox4jIKcRKlMLNy"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     return YES;
 }
 							
@@ -42,5 +48,6 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end
