@@ -47,7 +47,7 @@
 		013A0BC918F4AAF5009238E4 /* TracVentory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TracVentory-Prefix.pch"; sourceTree = "<group>"; };
 		013A0BCA18F4AAF5009238E4 /* FLXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXAppDelegate.h; sourceTree = "<group>"; };
 		013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXAppDelegate.m; sourceTree = "<group>"; };
-		013A0BCE18F4AAF5009238E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013A0BCE18F4AAF5009238E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TracVentory.storyboard; sourceTree = "<group>"; };
 		013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXMasterViewController.h; sourceTree = "<group>"; };
 		013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXMasterViewController.m; sourceTree = "<group>"; };
 		013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXDetailViewController.h; sourceTree = "<group>"; };
@@ -61,6 +61,7 @@
 		013A0BF318F4AC1F009238E4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		013A0BF518F4AE83009238E4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		013A0BF718F4AE8E009238E4 /* IDBLUE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDBLUE.framework; sourceTree = "<group>"; };
+		C312E81118FD7A9E000635E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TracVentory.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +129,7 @@
 			children = (
 				013A0BCA18F4AAF5009238E4 /* FLXAppDelegate.h */,
 				013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */,
-				013A0BCD18F4AAF5009238E4 /* Main.storyboard */,
+				013A0BCD18F4AAF5009238E4 /* TracVentory.storyboard */,
 				013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */,
 				013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */,
 				013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */,
@@ -302,12 +303,13 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		013A0BCD18F4AAF5009238E4 /* Main.storyboard */ = {
+		013A0BCD18F4AAF5009238E4 /* TracVentory.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				013A0BCE18F4AAF5009238E4 /* Base */,
+				C312E81118FD7A9E000635E0 /* en */,
 			);
-			name = Main.storyboard;
+			name = TracVentory.storyboard;
 			sourceTree = "<group>";
 		};
 		013A0BE618F4AAF5009238E4 /* InfoPlist.strings */ = {
