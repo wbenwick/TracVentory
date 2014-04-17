@@ -15,7 +15,6 @@
 		013A0BCC18F4AAF5009238E4 /* FLXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */; };
 		013A0BD218F4AAF5009238E4 /* FLXMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */; };
 		013A0BD518F4AAF5009238E4 /* FLXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */; };
-		013A0BD718F4AAF5009238E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BD618F4AAF5009238E4 /* Images.xcassets */; };
 		013A0BDE18F4AAF5009238E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BDD18F4AAF5009238E4 /* XCTest.framework */; };
 		013A0BDF18F4AAF5009238E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BBB18F4AAF5009238E4 /* Foundation.framework */; };
 		013A0BE018F4AAF5009238E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BBF18F4AAF5009238E4 /* UIKit.framework */; };
@@ -32,8 +31,10 @@
 		01FD5A5118FCC0A700EA7122 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5018FCC0A700EA7122 /* MobileCoreServices.framework */; };
 		01FD5A5318FCC0D200EA7122 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5218FCC0D200EA7122 /* QuartzCore.framework */; };
 		01FD5A5518FCC0D900EA7122 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5418FCC0D900EA7122 /* Security.framework */; };
-		01FD5A5718FCC0E400EA7122 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5618FCC0E400EA7122 /* StoreKit.framework */; };
 		01FD5A5918FCC0F100EA7122 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5818FCC0F100EA7122 /* SystemConfiguration.framework */; };
+		C3777F7618FE99510076F2A9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3777F7518FE99510076F2A9 /* Media.xcassets */; };
+		C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */; };
+		C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +63,6 @@
 		013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXMasterViewController.m; sourceTree = "<group>"; };
 		013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXDetailViewController.h; sourceTree = "<group>"; };
 		013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXDetailViewController.m; sourceTree = "<group>"; };
-		013A0BD618F4AAF5009238E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		013A0BDC18F4AAF5009238E4 /* TracVentoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracVentoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013A0BDD18F4AAF5009238E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		013A0BE518F4AAF5009238E4 /* TracVentoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TracVentoryTests-Info.plist"; sourceTree = "<group>"; };
@@ -79,8 +79,13 @@
 		01FD5A5018FCC0A700EA7122 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		01FD5A5218FCC0D200EA7122 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		01FD5A5418FCC0D900EA7122 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		01FD5A5618FCC0E400EA7122 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		01FD5A5818FCC0F100EA7122 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C3777F7518FE99510076F2A9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		C3777F7718FE99CE0076F2A9 /* tracVentory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracVentory.png; sourceTree = "<group>"; };
+		C3777F7818FE9D4E0076F2A9 /* FLXCheckInOutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXCheckInOutController.h; sourceTree = "<group>"; };
+		C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXCheckInOutController.m; sourceTree = "<group>"; };
+		C3777F7B18FE9F700076F2A9 /* IDBlueSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDBlueSdk.h; sourceTree = "<group>"; };
+		C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDBlueSdk.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +94,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01FD5A5918FCC0F100EA7122 /* SystemConfiguration.framework in Frameworks */,
-				01FD5A5718FCC0E400EA7122 /* StoreKit.framework in Frameworks */,
 				01FD5A5518FCC0D900EA7122 /* Security.framework in Frameworks */,
 				01FD5A5318FCC0D200EA7122 /* QuartzCore.framework in Frameworks */,
 				01FD5A5118FCC0A700EA7122 /* MobileCoreServices.framework in Frameworks */,
@@ -122,6 +126,7 @@
 		013A0BAF18F4AAF5009238E4 = {
 			isa = PBXGroup;
 			children = (
+				C3777F7718FE99CE0076F2A9 /* tracVentory.png */,
 				013A0BC118F4AAF5009238E4 /* TracVentory */,
 				013A0BE318F4AAF5009238E4 /* TracVentoryTests */,
 				013A0BBA18F4AAF5009238E4 /* Frameworks */,
@@ -142,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				01FD5A5818FCC0F100EA7122 /* SystemConfiguration.framework */,
-				01FD5A5618FCC0E400EA7122 /* StoreKit.framework */,
 				01FD5A5418FCC0D900EA7122 /* Security.framework */,
 				01FD5A5218FCC0D200EA7122 /* QuartzCore.framework */,
 				01FD5A5018FCC0A700EA7122 /* MobileCoreServices.framework */,
@@ -164,14 +168,19 @@
 		013A0BC118F4AAF5009238E4 /* TracVentory */ = {
 			isa = PBXGroup;
 			children = (
+				C312E81518FD7CE7000635E0 /* iPad */,
 				013A0BCA18F4AAF5009238E4 /* FLXAppDelegate.h */,
+				C3777F7B18FE9F700076F2A9 /* IDBlueSdk.h */,
+				C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */,
+				C3777F7518FE99510076F2A9 /* Media.xcassets */,
 				013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */,
 				013A0BCD18F4AAF5009238E4 /* Main.storyboard */,
+				C3777F7818FE9D4E0076F2A9 /* FLXCheckInOutController.h */,
+				C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */,
 				013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */,
 				013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */,
 				013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */,
 				013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */,
-				013A0BD618F4AAF5009238E4 /* Images.xcassets */,
 				013A0BC218F4AAF5009238E4 /* Supporting Files */,
 			);
 			path = TracVentory;
@@ -204,6 +213,13 @@
 				013A0BE618F4AAF5009238E4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C312E81518FD7CE7000635E0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +272,11 @@
 				TargetAttributes = {
 					013A0BB718F4AAF5009238E4 = {
 						DevelopmentTeam = 8EL9XN35NJ;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					013A0BDB18F4AAF5009238E4 = {
 						TestTargetID = 013A0BB718F4AAF5009238E4;
@@ -287,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0166B6C018FCC55600BE4768 /* Main.storyboard in Resources */,
-				013A0BD718F4AAF5009238E4 /* Images.xcassets in Resources */,
+				C3777F7618FE99510076F2A9 /* Media.xcassets in Resources */,
 				013A0BC618F4AAF5009238E4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +331,8 @@
 				013A0BD518F4AAF5009238E4 /* FLXDetailViewController.m in Sources */,
 				013A0BD218F4AAF5009238E4 /* FLXMasterViewController.m in Sources */,
 				013A0BC818F4AAF5009238E4 /* main.m in Sources */,
+				C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */,
+				C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */,
 				013A0BCC18F4AAF5009238E4 /* FLXAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,8 +457,8 @@
 		013A0BEE18F4AAF5009238E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -445,8 +468,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TracVentory/TracVentory-Prefix.pch";
 				INFOPLIST_FILE = "TracVentory/TracVentory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,8 +479,8 @@
 		013A0BEF18F4AAF5009238E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -465,8 +490,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TracVentory/TracVentory-Prefix.pch";
 				INFOPLIST_FILE = "TracVentory/TracVentory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

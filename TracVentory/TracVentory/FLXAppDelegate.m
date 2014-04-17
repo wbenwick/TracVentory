@@ -19,6 +19,9 @@
     
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
+    
+    NSLog(@"%f, %f", [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
+
     return YES;
 }
 							

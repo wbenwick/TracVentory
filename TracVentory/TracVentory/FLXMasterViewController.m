@@ -31,25 +31,25 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
-    
-    actionSheetDelete = [[UIActionSheet alloc] initWithTitle:@"Do you want to continue?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Delete Item(s)" otherButtonTitles:nil];
-    actionSheetDelete.actionSheetStyle = UIActionSheetStyleBlackOpaque;
-    [actionSheetDelete showInView:self.tabBarController.view];
+//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+//    self.navigationItem.rightBarButtonItem = addButton;
+//    
+//    actionSheetDelete = [[UIActionSheet alloc] initWithTitle:@"Do you want to continue?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Delete Item(s)" otherButtonTitles:nil];
+//    actionSheetDelete.actionSheetStyle = UIActionSheetStyleBlackOpaque;
+//    [actionSheetDelete showInView:self.tabBarController.view];
 
     NSLog(@"%@", [self.tabBarController.tabBar items]);
 
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    [self showActionSheet:nil];
-
-    [actionSheetDelete showFromTabBar:self.tabBarController.tabBar];
-
-    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    testObject[@"foo"] = @"bar";
-    [testObject saveInBackground];
+//    [self showActionSheet:nil];
+//
+//    [actionSheetDelete showFromTabBar:self.tabBarController.tabBar];
+//
+//    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+//    testObject[@"foo"] = @"bar";
+//    [testObject saveInBackground];
     
 }
 
