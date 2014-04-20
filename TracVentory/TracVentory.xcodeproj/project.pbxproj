@@ -35,6 +35,7 @@
 		C3777F7618FE99510076F2A9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3777F7518FE99510076F2A9 /* Media.xcassets */; };
 		C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */; };
 		C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */; };
+		C3777F7F1903009A0076F2A9 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3777F7E190300990076F2A9 /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXCheckInOutController.m; sourceTree = "<group>"; };
 		C3777F7B18FE9F700076F2A9 /* IDBlueSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDBlueSdk.h; sourceTree = "<group>"; };
 		C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDBlueSdk.m; sourceTree = "<group>"; };
+		C3777F7E190300990076F2A9 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		013A0BAF18F4AAF5009238E4 = {
 			isa = PBXGroup;
 			children = (
+				C3777F7E190300990076F2A9 /* Settings.storyboard */,
 				C3777F7718FE99CE0076F2A9 /* tracVentory.png */,
 				013A0BC118F4AAF5009238E4 /* TracVentory */,
 				013A0BE318F4AAF5009238E4 /* TracVentoryTests */,
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0166B6C018FCC55600BE4768 /* Main.storyboard in Resources */,
+				C3777F7F1903009A0076F2A9 /* Settings.storyboard in Resources */,
 				C3777F7618FE99510076F2A9 /* Media.xcassets in Resources */,
 				013A0BC618F4AAF5009238E4 /* InfoPlist.strings in Resources */,
 			);
