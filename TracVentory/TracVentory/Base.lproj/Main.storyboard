@@ -116,7 +116,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Condition" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Moy-Jm-OfD">
-                                        <rect key="frame" x="22" y="315" width="95" height="21"/>
+                                        <rect key="frame" x="22" y="311" width="95" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -348,7 +348,8 @@
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TracVentory" id="tQt-TN-PWz">
+                    <navigationItem key="navigationItem" title="TracVentory Items" id="tQt-TN-PWz">
+                        <barButtonItem key="backBarButtonItem" title="&lt;" id="5DJ-YH-zhJ"/>
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="EFE-Dp-smK"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sQZ-06-QEA">
                             <connections>
@@ -499,7 +500,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Item" id="cra-N8-TIN"/>
+                    <navigationItem key="navigationItem" title="Item Photos" id="cra-N8-TIN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>
