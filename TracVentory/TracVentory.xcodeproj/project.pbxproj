@@ -13,10 +13,8 @@
 		013A0BC618F4AAF5009238E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BC418F4AAF5009238E4 /* InfoPlist.strings */; };
 		013A0BC818F4AAF5009238E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BC718F4AAF5009238E4 /* main.m */; };
 		013A0BCC18F4AAF5009238E4 /* FLXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */; };
-		013A0BCF18F4AAF5009238E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BCD18F4AAF5009238E4 /* Main.storyboard */; };
 		013A0BD218F4AAF5009238E4 /* FLXMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */; };
 		013A0BD518F4AAF5009238E4 /* FLXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */; };
-		013A0BD718F4AAF5009238E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BD618F4AAF5009238E4 /* Images.xcassets */; };
 		013A0BDE18F4AAF5009238E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BDD18F4AAF5009238E4 /* XCTest.framework */; };
 		013A0BDF18F4AAF5009238E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BBB18F4AAF5009238E4 /* Foundation.framework */; };
 		013A0BE018F4AAF5009238E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BBF18F4AAF5009238E4 /* UIKit.framework */; };
@@ -25,6 +23,20 @@
 		013A0BF418F4AC1F009238E4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BF318F4AC1F009238E4 /* ExternalAccessory.framework */; };
 		013A0BF618F4AE83009238E4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BF518F4AE83009238E4 /* Parse.framework */; };
 		013A0BF818F4AE8E009238E4 /* IDBLUE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A0BF718F4AE8E009238E4 /* IDBLUE.framework */; };
+		0166B6C018FCC55600BE4768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013A0BCD18F4AAF5009238E4 /* Main.storyboard */; };
+		01FD5A4918FCC07D00EA7122 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A4818FCC07D00EA7122 /* AudioToolbox.framework */; };
+		01FD5A4B18FCC08500EA7122 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A4A18FCC08500EA7122 /* CFNetwork.framework */; };
+		01FD5A4D18FCC09100EA7122 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A4C18FCC09100EA7122 /* CoreLocation.framework */; };
+		01FD5A4F18FCC09F00EA7122 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A4E18FCC09F00EA7122 /* libz.dylib */; };
+		01FD5A5118FCC0A700EA7122 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5018FCC0A700EA7122 /* MobileCoreServices.framework */; };
+		01FD5A5318FCC0D200EA7122 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5218FCC0D200EA7122 /* QuartzCore.framework */; };
+		01FD5A5518FCC0D900EA7122 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5418FCC0D900EA7122 /* Security.framework */; };
+		01FD5A5918FCC0F100EA7122 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD5A5818FCC0F100EA7122 /* SystemConfiguration.framework */; };
+		C3777F7618FE99510076F2A9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3777F7518FE99510076F2A9 /* Media.xcassets */; };
+		C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */; };
+		C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */; };
+		C3777F7F1903009A0076F2A9 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3777F7E190300990076F2A9 /* Settings.storyboard */; };
+		C38AAF251905BFAF00B2C15F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38AAF231905BFAF00B2C15F /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +60,11 @@
 		013A0BC918F4AAF5009238E4 /* TracVentory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TracVentory-Prefix.pch"; sourceTree = "<group>"; };
 		013A0BCA18F4AAF5009238E4 /* FLXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXAppDelegate.h; sourceTree = "<group>"; };
 		013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXAppDelegate.m; sourceTree = "<group>"; };
-		013A0BCE18F4AAF5009238E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013A0BCE18F4AAF5009238E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXMasterViewController.h; sourceTree = "<group>"; };
 		013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXMasterViewController.m; sourceTree = "<group>"; };
 		013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLXDetailViewController.h; sourceTree = "<group>"; };
 		013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXDetailViewController.m; sourceTree = "<group>"; };
-		013A0BD618F4AAF5009238E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		013A0BDC18F4AAF5009238E4 /* TracVentoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracVentoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013A0BDD18F4AAF5009238E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		013A0BE518F4AAF5009238E4 /* TracVentoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TracVentoryTests-Info.plist"; sourceTree = "<group>"; };
@@ -62,6 +73,23 @@
 		013A0BF318F4AC1F009238E4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		013A0BF518F4AE83009238E4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		013A0BF718F4AE8E009238E4 /* IDBLUE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDBLUE.framework; sourceTree = "<group>"; };
+		0166B6BF18FCC55500BE4768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		01FD5A4818FCC07D00EA7122 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		01FD5A4A18FCC08500EA7122 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		01FD5A4C18FCC09100EA7122 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		01FD5A4E18FCC09F00EA7122 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		01FD5A5018FCC0A700EA7122 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		01FD5A5218FCC0D200EA7122 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		01FD5A5418FCC0D900EA7122 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		01FD5A5818FCC0F100EA7122 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C3777F7518FE99510076F2A9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		C3777F7718FE99CE0076F2A9 /* tracVentory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracVentory.png; sourceTree = "<group>"; };
+		C3777F7818FE9D4E0076F2A9 /* FLXCheckInOutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXCheckInOutController.h; sourceTree = "<group>"; };
+		C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXCheckInOutController.m; sourceTree = "<group>"; };
+		C3777F7B18FE9F700076F2A9 /* IDBlueSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDBlueSdk.h; sourceTree = "<group>"; };
+		C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDBlueSdk.m; sourceTree = "<group>"; };
+		C3777F7E190300990076F2A9 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		C38AAF241905BFAF00B2C15F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +97,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FD5A5918FCC0F100EA7122 /* SystemConfiguration.framework in Frameworks */,
+				01FD5A5518FCC0D900EA7122 /* Security.framework in Frameworks */,
+				01FD5A5318FCC0D200EA7122 /* QuartzCore.framework in Frameworks */,
+				01FD5A5118FCC0A700EA7122 /* MobileCoreServices.framework in Frameworks */,
+				01FD5A4F18FCC09F00EA7122 /* libz.dylib in Frameworks */,
+				01FD5A4D18FCC09100EA7122 /* CoreLocation.framework in Frameworks */,
+				01FD5A4B18FCC08500EA7122 /* CFNetwork.framework in Frameworks */,
+				01FD5A4918FCC07D00EA7122 /* AudioToolbox.framework in Frameworks */,
 				013A0BF418F4AC1F009238E4 /* ExternalAccessory.framework in Frameworks */,
 				013A0BBE18F4AAF5009238E4 /* CoreGraphics.framework in Frameworks */,
 				013A0BC018F4AAF5009238E4 /* UIKit.framework in Frameworks */,
@@ -94,6 +130,8 @@
 		013A0BAF18F4AAF5009238E4 = {
 			isa = PBXGroup;
 			children = (
+				C3777F7E190300990076F2A9 /* Settings.storyboard */,
+				C3777F7718FE99CE0076F2A9 /* tracVentory.png */,
 				013A0BC118F4AAF5009238E4 /* TracVentory */,
 				013A0BE318F4AAF5009238E4 /* TracVentoryTests */,
 				013A0BBA18F4AAF5009238E4 /* Frameworks */,
@@ -113,6 +151,14 @@
 		013A0BBA18F4AAF5009238E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01FD5A5818FCC0F100EA7122 /* SystemConfiguration.framework */,
+				01FD5A5418FCC0D900EA7122 /* Security.framework */,
+				01FD5A5218FCC0D200EA7122 /* QuartzCore.framework */,
+				01FD5A5018FCC0A700EA7122 /* MobileCoreServices.framework */,
+				01FD5A4E18FCC09F00EA7122 /* libz.dylib */,
+				01FD5A4C18FCC09100EA7122 /* CoreLocation.framework */,
+				01FD5A4A18FCC08500EA7122 /* CFNetwork.framework */,
+				01FD5A4818FCC07D00EA7122 /* AudioToolbox.framework */,
 				013A0BF718F4AE8E009238E4 /* IDBLUE.framework */,
 				013A0BF518F4AE83009238E4 /* Parse.framework */,
 				013A0BF318F4AC1F009238E4 /* ExternalAccessory.framework */,
@@ -127,14 +173,20 @@
 		013A0BC118F4AAF5009238E4 /* TracVentory */ = {
 			isa = PBXGroup;
 			children = (
+				C312E81518FD7CE7000635E0 /* iPad */,
 				013A0BCA18F4AAF5009238E4 /* FLXAppDelegate.h */,
+				C3777F7B18FE9F700076F2A9 /* IDBlueSdk.h */,
+				C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */,
+				C3777F7518FE99510076F2A9 /* Media.xcassets */,
 				013A0BCB18F4AAF5009238E4 /* FLXAppDelegate.m */,
 				013A0BCD18F4AAF5009238E4 /* Main.storyboard */,
+				C3777F7818FE9D4E0076F2A9 /* FLXCheckInOutController.h */,
+				C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */,
+				C38AAF231905BFAF00B2C15F /* Model.xcdatamodeld */,
 				013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */,
 				013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */,
 				013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */,
 				013A0BD418F4AAF5009238E4 /* FLXDetailViewController.m */,
-				013A0BD618F4AAF5009238E4 /* Images.xcassets */,
 				013A0BC218F4AAF5009238E4 /* Supporting Files */,
 			);
 			path = TracVentory;
@@ -167,6 +219,13 @@
 				013A0BE618F4AAF5009238E4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C312E81518FD7CE7000635E0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +278,11 @@
 				TargetAttributes = {
 					013A0BB718F4AAF5009238E4 = {
 						DevelopmentTeam = 8EL9XN35NJ;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					013A0BDB18F4AAF5009238E4 = {
 						TestTargetID = 013A0BB718F4AAF5009238E4;
@@ -249,9 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013A0BD718F4AAF5009238E4 /* Images.xcassets in Resources */,
+				0166B6C018FCC55600BE4768 /* Main.storyboard in Resources */,
+				C3777F7F1903009A0076F2A9 /* Settings.storyboard in Resources */,
+				C3777F7618FE99510076F2A9 /* Media.xcassets in Resources */,
 				013A0BC618F4AAF5009238E4 /* InfoPlist.strings in Resources */,
-				013A0BCF18F4AAF5009238E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +338,9 @@
 				013A0BD518F4AAF5009238E4 /* FLXDetailViewController.m in Sources */,
 				013A0BD218F4AAF5009238E4 /* FLXMasterViewController.m in Sources */,
 				013A0BC818F4AAF5009238E4 /* main.m in Sources */,
+				C38AAF251905BFAF00B2C15F /* Model.xcdatamodeld in Sources */,
+				C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */,
+				C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */,
 				013A0BCC18F4AAF5009238E4 /* FLXAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +376,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				013A0BCE18F4AAF5009238E4 /* Base */,
+				0166B6BF18FCC55500BE4768 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -396,8 +465,8 @@
 		013A0BEE18F4AAF5009238E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -407,8 +476,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TracVentory/TracVentory-Prefix.pch";
 				INFOPLIST_FILE = "TracVentory/TracVentory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -416,8 +487,8 @@
 		013A0BEF18F4AAF5009238E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -427,8 +498,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TracVentory/TracVentory-Prefix.pch";
 				INFOPLIST_FILE = "TracVentory/TracVentory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -504,6 +577,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C38AAF231905BFAF00B2C15F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C38AAF241905BFAF00B2C15F /* Model.xcdatamodel */,
+			);
+			currentVersion = C38AAF241905BFAF00B2C15F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 013A0BB018F4AAF5009238E4 /* Project object */;
 }
