@@ -71,12 +71,23 @@
     }
     
     NSString* tagId = [tag toString];
-    [[self textField] setText:tagId];
+    NSLog(@"String: %@", [self trimZero:tagId]);
+    [[self textField] setText:[self trimZero:tagId]];
 }
 
 -(void) readTagIdFailed: (IDBlueCommand*) command withResponse: (NackResponse*) response {
     NSLog(@"ReadTagIDFailed");
-    [[self textField] setText:@""];
+    [[self textField] setText:@"..."];
+}
+
+-(NSString *)trimZero:(NSString*)inputString {
+    
+    NSScanner *scanner = [NSScanner scannerWithString:inputString];
+    NSCharacterSet *zeros = [NSCharacterSet
+                             characterSetWithCharactersInString:@"0"];
+    [scanner scanCharactersFromSet:zeros intoString:NULL];
+    
+    return [inputString substringFromIndex:[scanner scanLocation]];
 }
 
 @end

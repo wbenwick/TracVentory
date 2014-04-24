@@ -36,6 +36,7 @@
 		C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */; };
 		C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */; };
 		C3777F7F1903009A0076F2A9 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3777F7E190300990076F2A9 /* Settings.storyboard */; };
+		C38AAF251905BFAF00B2C15F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38AAF231905BFAF00B2C15F /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		C3777F7B18FE9F700076F2A9 /* IDBlueSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDBlueSdk.h; sourceTree = "<group>"; };
 		C3777F7C18FE9F700076F2A9 /* IDBlueSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDBlueSdk.m; sourceTree = "<group>"; };
 		C3777F7E190300990076F2A9 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		C38AAF241905BFAF00B2C15F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				013A0BCD18F4AAF5009238E4 /* Main.storyboard */,
 				C3777F7818FE9D4E0076F2A9 /* FLXCheckInOutController.h */,
 				C3777F7918FE9D4E0076F2A9 /* FLXCheckInOutController.m */,
+				C38AAF231905BFAF00B2C15F /* Model.xcdatamodeld */,
 				013A0BD018F4AAF5009238E4 /* FLXMasterViewController.h */,
 				013A0BD118F4AAF5009238E4 /* FLXMasterViewController.m */,
 				013A0BD318F4AAF5009238E4 /* FLXDetailViewController.h */,
@@ -335,6 +338,7 @@
 				013A0BD518F4AAF5009238E4 /* FLXDetailViewController.m in Sources */,
 				013A0BD218F4AAF5009238E4 /* FLXMasterViewController.m in Sources */,
 				013A0BC818F4AAF5009238E4 /* main.m in Sources */,
+				C38AAF251905BFAF00B2C15F /* Model.xcdatamodeld in Sources */,
 				C3777F7D18FE9F700076F2A9 /* IDBlueSdk.m in Sources */,
 				C3777F7A18FE9D4E0076F2A9 /* FLXCheckInOutController.m in Sources */,
 				013A0BCC18F4AAF5009238E4 /* FLXAppDelegate.m in Sources */,
@@ -573,6 +577,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C38AAF231905BFAF00B2C15F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C38AAF241905BFAF00B2C15F /* Model.xcdatamodel */,
+			);
+			currentVersion = C38AAF241905BFAF00B2C15F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 013A0BB018F4AAF5009238E4 /* Project object */;
 }
